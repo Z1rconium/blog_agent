@@ -1,0 +1,26 @@
+title: "TheUnknownThing's Blog"
+author: TheUnknownThing
+email: ""
+description: "A migrated version of the original TheUnknownBlog built with Jekyll and hosted on GitHub Pages."
+
+# When using a built‑in theme on GitHub Pages, set the `theme` field. The `minima` theme
+# provides a clean, minimal layout similar to the original site without requiring
+# additional dependencies.
+theme: minima
+
+# Include the `jekyll-feed` plugin so RSS feeds are generated automatically. This
+# mimics the feed functionality of the original Astro site.
+plugins:
+  - jekyll-feed
+
+# List any Markdown pages that should appear in the top navigation. These
+# correspond to the About and Projects sections on the original site.
+header_pages:
+  - about.md
+  - projects.md
+
+# Site URL and base URL are left blank because GitHub Pages will set them
+# automatically based on the repository name. If deploying to a custom domain,
+# update these values accordingly.
+url: ""
+baseurl: ""
